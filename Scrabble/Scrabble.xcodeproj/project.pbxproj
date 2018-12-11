@@ -13,6 +13,7 @@
 		0328B16021BB02420087CBAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0328B15F21BB02420087CBAB /* Assets.xcassets */; };
 		0328B16321BB02420087CBAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0328B16121BB02420087CBAB /* LaunchScreen.storyboard */; };
 		0377987721BB0A490024F05A /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0377987621BB0A490024F05A /* Tile.swift */; };
+		038E148321BB0D690041645F /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038E148221BB0D690041645F /* GameManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
