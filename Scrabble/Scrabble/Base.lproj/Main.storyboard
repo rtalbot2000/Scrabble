@@ -482,6 +482,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edF-5F-ifc">
                                                 <rect key="frame" x="0.0" y="0.0" width="67.5" height="87"/>
                                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hBD-qD-jwQ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="enB-9o-qVm">
                                                 <rect key="frame" x="68.5" y="0.0" width="67" height="87"/>
@@ -1009,88 +1012,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outletCollection property="blueSpaces" destination="tcq-Dd-bw2" collectionClass="NSMutableArray" id="3wD-le-3fb"/>
-                        <outletCollection property="blueSpaces" destination="tcq-Dd-bw2" collectionClass="NSMutableArray" id="oXd-Qn-Hih"/>
-                        <outletCollection property="blueSpaces" destination="f6m-fY-2y4" collectionClass="NSMutableArray" id="gMm-XB-MjE"/>
-                        <outletCollection property="blueSpaces" destination="AMX-Y5-F6R" collectionClass="NSMutableArray" id="QbL-QQ-nMc"/>
-                        <outletCollection property="blueSpaces" destination="jIh-pS-QpZ" collectionClass="NSMutableArray" id="OCw-ZO-STE"/>
-                        <outletCollection property="blueSpaces" destination="yx3-6R-oVd" collectionClass="NSMutableArray" id="WfB-oT-kSS"/>
-                        <outletCollection property="blueSpaces" destination="lb5-Pb-fR9" collectionClass="NSMutableArray" id="4Fx-Uo-sqv"/>
-                        <outletCollection property="blueSpaces" destination="Urp-WI-rSV" collectionClass="NSMutableArray" id="iNy-fk-NE6"/>
-                        <outletCollection property="blueSpaces" destination="KqX-cl-TWI" collectionClass="NSMutableArray" id="YlZ-l0-KQb"/>
-                        <outletCollection property="blueSpaces" destination="mv0-jj-q7c" collectionClass="NSMutableArray" id="2ev-dV-mgZ"/>
-                        <outletCollection property="blueSpaces" destination="Il1-AQ-Oaa" collectionClass="NSMutableArray" id="Wue-Zu-2rn"/>
-                        <outletCollection property="blueSpaces" destination="olk-MW-Uzb" collectionClass="NSMutableArray" id="ybC-iR-lvN"/>
-                        <outletCollection property="blueSpaces" destination="2U0-U8-vhj" collectionClass="NSMutableArray" id="hEh-ee-RTm"/>
-                        <outletCollection property="blueSpaces" destination="4h8-Cy-EGf" collectionClass="NSMutableArray" id="VRb-a9-KZj"/>
-                        <outletCollection property="blueSpaces" destination="nWD-ql-oiG" collectionClass="NSMutableArray" id="QeM-ds-TeE"/>
-                        <outletCollection property="blueSpaces" destination="qnb-4x-mn7" collectionClass="NSMutableArray" id="0JP-8r-eq5"/>
-                        <outletCollection property="blueSpaces" destination="Dzt-1m-xx4" collectionClass="NSMutableArray" id="pfd-C3-fdh"/>
-                        <outletCollection property="blueSpaces" destination="x3C-f9-zBz" collectionClass="NSMutableArray" id="TeV-O6-EOa"/>
-                        <outletCollection property="blueSpaces" destination="K7n-hB-DLF" collectionClass="NSMutableArray" id="3rA-f1-Asv"/>
-                        <outletCollection property="blueSpaces" destination="Eic-Da-R8B" collectionClass="NSMutableArray" id="t6R-wB-nAl"/>
-                        <outletCollection property="blueSpaces" destination="gLM-WG-szu" collectionClass="NSMutableArray" id="xnr-Fh-FHN"/>
-                        <outletCollection property="blueSpaces" destination="FuS-vD-jF1" collectionClass="NSMutableArray" id="YK8-rX-PrT"/>
-                        <outletCollection property="blueSpaces" destination="kZB-9L-gvc" collectionClass="NSMutableArray" id="vgQ-Bw-4kI"/>
-                        <outletCollection property="blueSpaces" destination="sl0-OD-whe" collectionClass="NSMutableArray" id="h6m-fg-kkj"/>
-                        <outletCollection property="blueSpaces" destination="r3U-CS-P3l" collectionClass="NSMutableArray" id="waM-0Y-qgX"/>
-                        <outletCollection property="orangeSpaces" destination="mhd-Ff-H48" collectionClass="NSMutableArray" id="vbu-Sx-1n7"/>
-                        <outletCollection property="orangeSpaces" destination="hIb-U4-3SC" collectionClass="NSMutableArray" id="K3t-pL-HZs"/>
-                        <outletCollection property="orangeSpaces" destination="SrW-Ie-kYu" collectionClass="NSMutableArray" id="7bB-6I-K4i"/>
-                        <outletCollection property="orangeSpaces" destination="edF-5F-ifc" collectionClass="NSMutableArray" id="jCD-Sd-PL9"/>
-                        <outletCollection property="orangeSpaces" destination="RSw-Yx-5x6" collectionClass="NSMutableArray" id="Oag-gf-eIX"/>
-                        <outletCollection property="orangeSpaces" destination="qzd-MV-ZWa" collectionClass="NSMutableArray" id="di5-QT-ckx"/>
-                        <outletCollection property="orangeSpaces" destination="l6M-Py-UBb" collectionClass="NSMutableArray" id="mjj-E1-n4j"/>
-                        <outletCollection property="redSpaces" destination="1IQ-XG-UKY" collectionClass="NSMutableArray" id="lpZ-NX-Zga"/>
-                        <outletCollection property="redSpaces" destination="RTG-iD-ZvB" collectionClass="NSMutableArray" id="7Rl-F6-E9K"/>
-                        <outletCollection property="redSpaces" destination="ciB-cM-dCS" collectionClass="NSMutableArray" id="69u-pc-8Kt"/>
-                        <outletCollection property="redSpaces" destination="kI1-Zb-xp7" collectionClass="NSMutableArray" id="HuA-pk-cKo"/>
-                        <outletCollection property="redSpaces" destination="ZSy-Hn-EJ8" collectionClass="NSMutableArray" id="LHm-uS-Rq6"/>
-                        <outletCollection property="redSpaces" destination="QLF-On-f7Q" collectionClass="NSMutableArray" id="R5f-yk-yAS"/>
-                        <outletCollection property="redSpaces" destination="opC-Kv-HQ1" collectionClass="NSMutableArray" id="DZS-bW-zgg"/>
-                        <outletCollection property="redSpaces" destination="YV4-fw-uwa" collectionClass="NSMutableArray" id="7A6-AM-eCu"/>
-                        <outletCollection property="redSpaces" destination="TZN-IV-gyA" collectionClass="NSMutableArray" id="LNI-Tn-6uq"/>
-                        <outletCollection property="redSpaces" destination="6jf-bc-edB" collectionClass="NSMutableArray" id="8KV-iO-2Yk"/>
-                        <outletCollection property="redSpaces" destination="DJv-Xb-FDu" collectionClass="NSMutableArray" id="DlU-ce-4ow"/>
-                        <outletCollection property="redSpaces" destination="apJ-s6-ibX" collectionClass="NSMutableArray" id="wHd-aW-qb1"/>
-                        <outletCollection property="redSpaces" destination="McX-fx-y7c" collectionClass="NSMutableArray" id="JgR-Xs-gwO"/>
-                        <outletCollection property="redSpaces" destination="soG-zk-FA8" collectionClass="NSMutableArray" id="ILy-Yq-tTY"/>
-                        <outletCollection property="redSpaces" destination="EhF-2V-vMe" collectionClass="NSMutableArray" id="b5m-2b-xP6"/>
-                        <outletCollection property="redSpaces" destination="C0W-zb-DFw" collectionClass="NSMutableArray" id="0RR-2o-6PA"/>
-                        <outletCollection property="redSpaces" destination="xtG-fe-3Ok" collectionClass="NSMutableArray" id="VWY-Er-fTr"/>
-                        <outletCollection property="greenSpaces" destination="Z9C-DA-pt9" collectionClass="NSMutableArray" id="ptc-GF-KjR"/>
-                        <outletCollection property="redSpaces" destination="cYz-YD-VEL" collectionClass="NSMutableArray" id="naN-4q-B0z"/>
-                        <outletCollection property="redSpaces" destination="1V1-83-COH" collectionClass="NSMutableArray" id="RFj-9C-JPA"/>
-                        <outletCollection property="redSpaces" destination="PmT-8l-Gh6" collectionClass="NSMutableArray" id="yzD-O3-4fd"/>
-                        <outletCollection property="greenSpaces" destination="cYz-YD-VEL" collectionClass="NSMutableArray" id="S65-V7-g0n"/>
-                        <outletCollection property="greenSpaces" destination="1V1-83-COH" collectionClass="NSMutableArray" id="S2N-h5-KZl"/>
-                        <outletCollection property="greenSpaces" destination="PmT-8l-Gh6" collectionClass="NSMutableArray" id="tya-dz-5ZN"/>
-                        <outletCollection property="greenSpaces" destination="Ghp-oO-aQa" collectionClass="NSMutableArray" id="HZr-as-fTq"/>
-                        <outletCollection property="greenSpaces" destination="A9b-nq-eTB" collectionClass="NSMutableArray" id="hwI-8i-Lm5"/>
-                        <outletCollection property="greenSpaces" destination="CAf-hD-P7p" collectionClass="NSMutableArray" id="19K-WM-IEz"/>
-                        <outletCollection property="greenSpaces" destination="QD0-A9-pqQ" collectionClass="NSMutableArray" id="hOg-vB-xQj"/>
-                        <outletCollection property="greenSpaces" destination="UXb-g4-eJ7" collectionClass="NSMutableArray" id="IRK-h5-4f8"/>
-                        <outletCollection property="greenSpaces" destination="tvf-U1-IPi" collectionClass="NSMutableArray" id="sYj-to-cKQ"/>
-                        <outletCollection property="greenSpaces" destination="PvT-QD-UuK" collectionClass="NSMutableArray" id="soS-H1-cvS"/>
-                        <outletCollection property="greenSpaces" destination="x1y-bI-lPu" collectionClass="NSMutableArray" id="Acy-KX-jYA"/>
-                        <outletCollection property="redSpaces" destination="McX-fx-y7c" collectionClass="NSMutableArray" id="D5X-ys-uEk"/>
-                        <outletCollection property="redSpaces2" destination="1IQ-XG-UKY" collectionClass="NSMutableArray" id="nFi-7C-pcp"/>
-                        <outletCollection property="redSpaces2" destination="ZSy-Hn-EJ8" collectionClass="NSMutableArray" id="z0d-IR-y3l"/>
-                        <outletCollection property="redSpaces2" destination="QLF-On-f7Q" collectionClass="NSMutableArray" id="0pe-Tk-kr9"/>
-                        <outletCollection property="redSpaces2" destination="opC-Kv-HQ1" collectionClass="NSMutableArray" id="MhM-wp-g3Y"/>
-                        <outletCollection property="redSpaces2" destination="YV4-fw-uwa" collectionClass="NSMutableArray" id="piR-6K-to3"/>
-                        <outletCollection property="redSpaces2" destination="RTG-iD-ZvB" collectionClass="NSMutableArray" id="lCk-CE-wp1"/>
-                        <outletCollection property="redSpaces2" destination="ciB-cM-dCS" collectionClass="NSMutableArray" id="e9C-ho-zDD"/>
-                        <outletCollection property="redSpaces2" destination="kI1-Zb-xp7" collectionClass="NSMutableArray" id="rNR-Gx-5nM"/>
-                        <outletCollection property="redSpaces2" destination="McX-fx-y7c" collectionClass="NSMutableArray" id="Npm-ej-KFf"/>
-                        <outletCollection property="redSpaces2" destination="TZN-IV-gyA" collectionClass="NSMutableArray" id="vTw-g5-i0S"/>
-                        <outletCollection property="redSpaces2" destination="6jf-bc-edB" collectionClass="NSMutableArray" id="Psa-Jq-Kpj"/>
-                        <outletCollection property="redSpaces2" destination="DJv-Xb-FDu" collectionClass="NSMutableArray" id="Qwj-Pb-twK"/>
-                        <outletCollection property="redSpaces2" destination="apJ-s6-ibX" collectionClass="NSMutableArray" id="69d-tX-2qk"/>
-                        <outletCollection property="redSpaces2" destination="soG-zk-FA8" collectionClass="NSMutableArray" id="t2l-Me-hGx"/>
-                        <outletCollection property="redSpaces2" destination="EhF-2V-vMe" collectionClass="NSMutableArray" id="Nl1-FV-jba"/>
-                        <outletCollection property="redSpaces2" destination="C0W-zb-DFw" collectionClass="NSMutableArray" id="Nzd-Pn-eNx"/>
-                        <outletCollection property="redSpaces2" destination="xtG-fe-3Ok" collectionClass="NSMutableArray" id="uYk-0Y-wLp"/>
+                        <outlet property="button" destination="edF-5F-ifc" id="Kyj-hV-XYy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -35,5 +35,14 @@ class ViewController: UIViewController {
     
     //repeat 
 
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        var multiplier : Double
+        
+        if(sender.backgroundColor == UIColor.orange) {
+            multiplier = 3
+        }
+        
+    }
+    
 }
 
