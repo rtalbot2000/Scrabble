@@ -12,6 +12,8 @@ import UIKit
 class GameManager {
     
     private var tiles : [Tile]
+//    private var p1 : Player
+//    private var p2 : Player
     
     init() {
         tiles = Array()
@@ -60,6 +62,8 @@ class GameManager {
         tiles.append(Tile(char: "J", score: 8, image: UIImage(named: "J")!))
         tiles.append(Tile(char: "K", score: 5, image: UIImage(named: "K")!))
         tiles.append(Tile(char: "Q", score: 10, image: UIImage(named: "Q")!))
+        tiles.append(Tile(char: "X", score: 8, image: UIImage(named: "X")!))
+        tiles.append(Tile(char: "Z", score: 10, image: UIImage(named: "Z")!))
     }
     
 }
