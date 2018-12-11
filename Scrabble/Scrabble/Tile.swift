@@ -11,12 +11,17 @@ import UIKit
 
 class Tile {
     
+    private let char: Character
     private var score: Int
     private let image: UIImage
     
-    init(score: Int, image: UIImage) {
+    init(char: Character, score: Int, image: UIImage) {
         self.score = score
         self.image = image
+    }
+    
+    func getCharacter() -> Character {
+        return char
     }
     
     func getScore() -> Int {

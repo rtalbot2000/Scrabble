@@ -24,6 +24,7 @@
 		0328B16221BB02420087CBAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0328B16421BB02420087CBAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0377987621BB0A490024F05A /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		038E148221BB0D690041645F /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		0328B15721BB02400087CBAB /* Scrabble */ = {
 			isa = PBXGroup;
 			children = (
+				038E148221BB0D690041645F /* GameManager.swift */,
 				0377987621BB0A490024F05A /* Tile.swift */,
 				0328B15821BB02400087CBAB /* AppDelegate.swift */,
 				0328B15A21BB02400087CBAB /* ViewController.swift */,
@@ -139,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0377987721BB0A490024F05A /* Tile.swift in Sources */,
+				038E148321BB0D690041645F /* GameManager.swift in Sources */,
 				0328B15B21BB02400087CBAB /* ViewController.swift in Sources */,
 				0328B15921BB02400087CBAB /* AppDelegate.swift in Sources */,
 			);
