@@ -15,6 +15,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        var multiplier : Double
+        
+        if(sender.backgroundColor == UIColor.orange) {
+            multiplier = 3
+        }
+        
+    }
+    
 }
 

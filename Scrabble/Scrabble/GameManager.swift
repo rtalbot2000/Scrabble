@@ -19,6 +19,7 @@ class GameManager {
         tiles = Array()
         
         fillArray()
+        var tile = tiles.remove(at)
     }
     
     func fillArray() {
