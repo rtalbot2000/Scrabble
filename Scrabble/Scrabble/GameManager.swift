@@ -19,7 +19,8 @@ class GameManager {
         tiles = Array()
         
         fillArray()
-        var tile = tiles.remove(at)
+        
+        //let tile = tiles.remove(at: Int.random(in: 0..<tiles.count))
     }
     
     func fillArray() {
