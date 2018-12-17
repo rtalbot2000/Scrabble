@@ -13,17 +13,24 @@ class GameManager {
     
     private var tiles : [Tile]
     private var dictionary : [String]
-//    private var p1 : Player
-//    private var p2 : Player
+   
+    private var p1 : Player
+    private var p2 : Player
+    private var current : Player
     
     init() {
         tiles = Array()
         dictionary = Array()
         
+        p1 = Player()
+        p2 = Player()
+        current = p1
+        
         fillArray()
         fillDictionary()
         
         //let tile = tiles.remove(at: Int.random(in: 0..<tiles.count))
+        
     }
     
     func fillArray() {
