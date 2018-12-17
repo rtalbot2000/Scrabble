@@ -16,6 +16,7 @@ class Tile {
     private let image: UIImage
     
     init(char: Character, score: Int, image: UIImage) {
+        self.char = char
         self.score = score
         self.image = image
     }

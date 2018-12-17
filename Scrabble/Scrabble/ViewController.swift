@@ -11,13 +11,13 @@ import UIKit
 class ViewController: UIViewController {
 
     
-    
-    @IBOutlet var blueSpaces: [UIButton]!
-    
-    @IBOutlet var greenSpaces: [UIButton]!
-    @IBOutlet var orangeSpaces: [UIButton]!
-    
-    @IBOutlet var redSpaces2: [UIButton]!
+//
+//    @IBOutlet var blueSpaces: [UIButton]!
+//
+//    @IBOutlet var greenSpaces: [UIButton]!
+//    @IBOutlet var orangeSpaces: [UIButton]!
+//
+//    @IBOutlet var redSpaces2: [UIButton]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     
     //prompt player where to place the tile
     
-    var tiles : [Int]
+//    var tiles : [Int]
     
     // Create total scoring
     

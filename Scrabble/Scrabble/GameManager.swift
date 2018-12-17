@@ -23,6 +23,7 @@ class GameManager {
         fillArray()
         fillDictionary()
         
+        
         //let tile = tiles.remove(at: Int.random(in: 0..<tiles.count))
     }
     
@@ -72,10 +73,17 @@ class GameManager {
     }
     
     func fillDictionary() {
-        let path = "Dictionary.txt"
-        
-        do {
-            
+        if let path = Bundle.main.path(forResource: "Dictionary", ofType: "txt") {
+            do {
+                let data = try String(contentsOfFile: path, encoding: .utf8)
+                let myStrings = data.components(separatedBy: .newlines)
+                
+                for i in 1..<myStrings.count {
+                    dictionary[i] = myStrings[i]
+                }
+            } catch {
+                print(error)
+            }
         }
     }
     
