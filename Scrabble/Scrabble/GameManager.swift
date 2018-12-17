@@ -72,7 +72,11 @@ class GameManager {
     }
     
     func fillDictionary() {
+        let path = "Dictionary.txt"
         
+        do {
+            
+        }
     }
     
 }
