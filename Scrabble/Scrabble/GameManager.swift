@@ -19,8 +19,8 @@ class GameManager {
     private var current : Player
     
     init() {
-        tiles = Array()
-        dictionary = Array()
+        tiles = []
+        dictionary = []
         
         p1 = Player()
         p2 = Player()
@@ -29,6 +29,12 @@ class GameManager {
         fillArray()
         fillDictionary()
         
+        giveCards(player: p1)
+        giveCards(player: p2)
+        
+        for tile in p1.getTiles() {
+            print(tile)
+        }
         //let tile = tiles.remove(at: Int.random(in: 0..<tiles.count))
         
     }
@@ -93,6 +99,13 @@ class GameManager {
             } catch {
                 print(error)
             }
+        }
+    }
+    
+    func giveCards(player p : Player) {
+        while(p.getTiles().count < 7 && !tiles.isEmpty) {
+            let t = tiles.remove(at: Int.random(in: 0..<tiles.count))
+            p.addTile(tile: t)
         }
     }
     

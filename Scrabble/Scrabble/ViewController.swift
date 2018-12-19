@@ -40,27 +40,27 @@ class ViewController: UIViewController {
     
     //repeat 
 
-    
-    @IBAction func buttonPressed(_ sender: UIButton) {
-        var multiplier : Double
-        
-        if(sender.backgroundColor == UIColor.orange) {
-            multiplier = 5
-        }
-        if(sender.backgroundColor == UIColor.green) {
-            multiplier = 4
-        }
-        if(sender.backgroundColor == UIColor.red) {
-            multiplier = 3
-        }
-        if(sender.backgroundColor == UIColor.blue) {
-            multiplier = 2
-        }
-        if(sender.backgroundColor == UIColor.darkGray) {
-            multiplier = 1
-        }
-        
-    }
+//    
+//    @IBAction func buttonPressed(_ sender: UIButton) {
+//        var multiplier : Double
+//
+//        if(sender.backgroundColor == UIColor.orange) {
+//            multiplier = 5
+//        }
+//        if(sender.backgroundColor == UIColor.green) {
+//            multiplier = 4
+//        }
+//        if(sender.backgroundColor == UIColor.red) {
+//            multiplier = 3
+//        }
+//        if(sender.backgroundColor == UIColor.blue) {
+//            multiplier = 2
+//        }
+//        if(sender.backgroundColor == UIColor.darkGray) {
+//            multiplier = 1
+//        }
+//
+//    }
     
 }
 
