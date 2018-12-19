@@ -19,14 +19,16 @@ class ViewController: UIViewController {
 //
 //    @IBOutlet var redSpaces2: [UIButton]!
     
+    var manager : GameManager?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        manager = GameManager()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
     
     //Get tile from player class
-    var x: Int = 0
     
     //prompt player where to place the tile
     

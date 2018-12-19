@@ -23,7 +23,6 @@ class GameManager {
         fillArray()
         fillDictionary()
         
-        
         //let tile = tiles.remove(at: Int.random(in: 0..<tiles.count))
     }
     
@@ -78,8 +77,11 @@ class GameManager {
                 let data = try String(contentsOfFile: path, encoding: .utf8)
                 let myStrings = data.components(separatedBy: .newlines)
                 
-                for i in 1..<myStrings.count {
-                    dictionary[i] = myStrings[i]
+                var i = 0
+                
+                while(i < myStrings.count) {
+                    dictionary.append(myStrings[i])
+                    i += 2
                 }
             } catch {
                 print(error)
