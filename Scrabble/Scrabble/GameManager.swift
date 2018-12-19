@@ -29,11 +29,15 @@ class GameManager {
         fillArray()
         fillDictionary()
         
+        print(tiles.count)
+        
         giveCards(player: p1)
         giveCards(player: p2)
         
+        print(tiles.count)
+        
         for tile in p1.getTiles() {
-            print(tile)
+            print("\(tile.getCharacter()) \(tile.getScore())")
         }
         //let tile = tiles.remove(at: Int.random(in: 0..<tiles.count))
         
@@ -51,6 +55,10 @@ class GameManager {
         
         for _ in 1...8 {
             tiles.append(Tile(char: "O", score: 1, image: UIImage(named: "O")!))
+        }
+        
+        for _ in 1...7 {
+            tiles.append(Tile(char: " ", score: 0, image: UIImage(named: "Blank")!))
         }
         
         for _ in 1...6 {
