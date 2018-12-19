@@ -79,7 +79,21 @@ class GameManager {
     }
     
     func fillDictionary() {
-        
+        if let path = Bundle.main.path(forResource: "Dictionary", ofType: "txt") {
+            do {
+                let data = try String(contentsOfFile: path, encoding: .utf8)
+                let myStrings = data.components(separatedBy: .newlines)
+                
+                var i = 0
+                
+                while(i < myStrings.count) {
+                    dictionary.append(myStrings[i])
+                    i += 2
+                }
+            } catch {
+                print(error)
+            }
+        }
     }
     
 }

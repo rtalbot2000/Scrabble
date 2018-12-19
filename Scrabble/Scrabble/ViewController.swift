@@ -11,26 +11,28 @@ import UIKit
 class ViewController: UIViewController {
 
     
+//
+//    @IBOutlet var blueSpaces: [UIButton]!
+//
+//    @IBOutlet var greenSpaces: [UIButton]!
+//    @IBOutlet var orangeSpaces: [UIButton]!
+//
+//    @IBOutlet var redSpaces2: [UIButton]!
     
-    @IBOutlet var blueSpaces: [UIButton]!
-    
-    @IBOutlet var greenSpaces: [UIButton]!
-    @IBOutlet var orangeSpaces: [UIButton]!
-    
-    @IBOutlet var redSpaces2: [UIButton]!
+    var manager : GameManager?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        manager = GameManager()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
     
     //Get tile from player class
-    var x: Int = 0
     
     //prompt player where to place the tile
     
-    var tiles : [Int]
+//    var tiles : [Int]
     
     // Create total scoring
     
