@@ -15,7 +15,7 @@
 		0377987721BB0A490024F05A /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0377987621BB0A490024F05A /* Tile.swift */; };
 		038E148321BB0D690041645F /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038E148221BB0D690041645F /* GameManager.swift */; };
 		039D571C21C8341A0007A495 /* Dictionary.txt in Resources */ = {isa = PBXBuildFile; fileRef = 039D571B21C8341A0007A495 /* Dictionary.txt */; };
-		039D572021C83C3F0007A495 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039D571F21C83C3F0007A495 /* Player.swift */; };
+		03B000EA21CADB7D00AA0728 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B000E921CADB7D00AA0728 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		0377987621BB0A490024F05A /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 		038E148221BB0D690041645F /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		039D571B21C8341A0007A495 /* Dictionary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dictionary.txt; sourceTree = "<group>"; };
-		039D571F21C83C3F0007A495 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = ../../../../Downloads/Player.swift; sourceTree = "<group>"; };
+		03B000E921CADB7D00AA0728 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +62,8 @@
 		0328B15721BB02400087CBAB /* Scrabble */ = {
 			isa = PBXGroup;
 			children = (
+				03B000E921CADB7D00AA0728 /* Player.swift */,
 				039D571B21C8341A0007A495 /* Dictionary.txt */,
-				039D571F21C83C3F0007A495 /* Player.swift */,
 				038E148221BB0D690041645F /* GameManager.swift */,
 				0377987621BB0A490024F05A /* Tile.swift */,
 				0328B15821BB02400087CBAB /* AppDelegate.swift */,
@@ -151,7 +151,7 @@
 				0377987721BB0A490024F05A /* Tile.swift in Sources */,
 				038E148321BB0D690041645F /* GameManager.swift in Sources */,
 				0328B15B21BB02400087CBAB /* ViewController.swift in Sources */,
-				039D572021C83C3F0007A495 /* Player.swift in Sources */,
+				03B000EA21CADB7D00AA0728 /* Player.swift in Sources */,
 				0328B15921BB02400087CBAB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
