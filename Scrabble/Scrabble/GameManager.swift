@@ -29,18 +29,8 @@ class GameManager {
         fillArray()
         fillDictionary()
         
-        print(tiles.count)
-        
         giveCards(player: p1)
         giveCards(player: p2)
-        
-        print(tiles.count)
-        
-        for tile in p1.getTiles() {
-            print("\(tile.getCharacter()) \(tile.getScore())")
-        }
-        //let tile = tiles.remove(at: Int.random(in: 0..<tiles.count))
-        
     }
     
     func fillArray() {
