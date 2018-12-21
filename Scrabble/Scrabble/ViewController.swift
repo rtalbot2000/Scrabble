@@ -10,14 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
-//
-//    @IBOutlet var blueSpaces: [UIButton]!
-//
-//    @IBOutlet var greenSpaces: [UIButton]!
-//    @IBOutlet var orangeSpaces: [UIButton]!
-//
-//    @IBOutlet var redSpaces2: [UIButton]!
+    @IBOutlet var blueSpaces: [UIButton]!
+
+    @IBOutlet var greenSpaces: [UIButton]!
+    @IBOutlet var orangeSpaces: [UIButton]!
+
+    @IBOutlet var redSpaces2: [UIButton]!
     
     var manager : GameManager?
     

@@ -25,4 +25,12 @@ class Player {
         return tiles
     }
     
+    func setScore(_ i : Int) {
+        self.score = i
+    }
+    
+    func getScore() -> Int {
+        return score
+    }
+    
 }
